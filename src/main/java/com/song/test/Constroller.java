@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Constroller {
     @RequestMapping("/cao")
     @ResponseBody
+
     public String index(){
+
+
+
+
         return "index";
     }
 }
